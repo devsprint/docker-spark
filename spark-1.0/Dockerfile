@@ -1,6 +1,6 @@
 FROM ubuntu-java8
 
-MAINTAINER Takuya UESHIN ueshin@happy-camper.st
+MAINTAINER omri@iluz.net
 
 RUN apt-get install -y git
 
