@@ -1,6 +1,7 @@
 # docker
 
 Provides some Dockerfiles.
+Based on the work of https://github.com/ueshin/docker
 
 ## ubuntu-java8
 
@@ -59,3 +60,15 @@ docker build -t spark:1.0.2 spark-1.0
 ```
 
 Build ubuntu-java8 in advance.
+
+## spark-standalone
+
+Build 1 Worker / Master standalone Spark cluster
+
+### build
+
+```bash
+docker build -t spark-standalone:1.2.0 spark-standalone
+```
+
+Build spark-1.2 in advance.

@@ -1,7 +1,7 @@
 FROM ubuntu
 
-MAINTAINER Takuya UESHIN ueshin@happy-camper.st
- 
+MAINTAINER omri@iluz.net
+
 RUN apt-get update
 RUN apt-get install -y software-properties-common
 
