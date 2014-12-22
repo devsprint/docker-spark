@@ -1,4 +1,4 @@
-FROM omriiluz/spark:1.2
+FROM omriiluz/spark-base:1.2
 
 MAINTAINER omri@iluz.net
 
